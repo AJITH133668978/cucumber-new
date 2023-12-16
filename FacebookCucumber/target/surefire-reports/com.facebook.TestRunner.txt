@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.facebook.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 9.276 s <<< FAILURE! - in com.facebook.TestRunner
+create facebook account(facebook)  Time elapsed: 6.2 s  <<< ERROR!
+io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+
+create facebook account(facebook)  Time elapsed: 6.219 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "reusablecodes.Reusablecode.Driver" is null
+
+create facebook account(facebook)  Time elapsed: 0.971 s  <<< ERROR!
+io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+
+create facebook account(facebook)  Time elapsed: 0.972 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "reusablecodes.Reusablecode.Driver" is null
+
